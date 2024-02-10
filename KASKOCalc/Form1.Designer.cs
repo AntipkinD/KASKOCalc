@@ -51,6 +51,7 @@
             // 
             // baserateComboBox
             // 
+            this.baserateComboBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.baserateComboBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.baserateComboBox.FormattingEnabled = true;
             this.baserateComboBox.Items.AddRange(new object[] {
@@ -85,6 +86,7 @@
             // 
             // agecoeffComboBox
             // 
+            this.agecoeffComboBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.agecoeffComboBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.agecoeffComboBox.FormattingEnabled = true;
             this.agecoeffComboBox.Items.AddRange(new object[] {
@@ -107,6 +109,7 @@
             // 
             // franchisecoeffComboBox
             // 
+            this.franchisecoeffComboBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.franchisecoeffComboBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.franchisecoeffComboBox.FormattingEnabled = true;
             this.franchisecoeffComboBox.Items.AddRange(new object[] {
@@ -133,6 +136,7 @@
             // 
             // installmentcoeffComboBox
             // 
+            this.installmentcoeffComboBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.installmentcoeffComboBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.installmentcoeffComboBox.FormattingEnabled = true;
             this.installmentcoeffComboBox.Items.AddRange(new object[] {
@@ -186,6 +190,7 @@
             // 
             // ageandexpcoeffComboBox
             // 
+            this.ageandexpcoeffComboBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ageandexpcoeffComboBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ageandexpcoeffComboBox.FormattingEnabled = true;
             this.ageandexpcoeffComboBox.Items.AddRange(new object[] {
@@ -200,6 +205,7 @@
             // 
             // theftcoeffComboBox
             // 
+            this.theftcoeffComboBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.theftcoeffComboBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.theftcoeffComboBox.FormattingEnabled = true;
             this.theftcoeffComboBox.Items.AddRange(new object[] {
@@ -217,6 +223,7 @@
             // 
             // alarmcoeffComboBox
             // 
+            this.alarmcoeffComboBox.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.alarmcoeffComboBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.alarmcoeffComboBox.FormattingEnabled = true;
             this.alarmcoeffComboBox.Items.AddRange(new object[] {
@@ -236,6 +243,7 @@
             // 
             // Clear_button
             // 
+            this.Clear_button.BackColor = System.Drawing.SystemColors.HotTrack;
             this.Clear_button.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Clear_button.Location = new System.Drawing.Point(499, 637);
             this.Clear_button.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -243,36 +251,38 @@
             this.Clear_button.Size = new System.Drawing.Size(469, 80);
             this.Clear_button.TabIndex = 9;
             this.Clear_button.Text = "Очистить";
-            this.Clear_button.UseVisualStyleBackColor = true;
+            this.Clear_button.UseVisualStyleBackColor = false;
             this.Clear_button.Click += new System.EventHandler(this.Clear_button_Click);
             // 
             // Figureout_button
             // 
+            this.Figureout_button.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.Figureout_button.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Figureout_button.Location = new System.Drawing.Point(22, 637);
             this.Figureout_button.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Figureout_button.Name = "Figureout_button";
             this.Figureout_button.Size = new System.Drawing.Size(469, 80);
             this.Figureout_button.TabIndex = 10;
-            this.Figureout_button.Text = "Рассчитать стоимость";
-            this.Figureout_button.UseVisualStyleBackColor = true;
+            this.Figureout_button.Text = "Рассчитать";
+            this.Figureout_button.UseVisualStyleBackColor = false;
             this.Figureout_button.Click += new System.EventHandler(this.Figureout_button_Click);
             // 
             // Figureouttofile_button
             // 
+            this.Figureouttofile_button.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.Figureouttofile_button.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Figureouttofile_button.Location = new System.Drawing.Point(975, 637);
             this.Figureouttofile_button.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Figureouttofile_button.Name = "Figureouttofile_button";
             this.Figureouttofile_button.Size = new System.Drawing.Size(469, 80);
             this.Figureouttofile_button.TabIndex = 11;
-            this.Figureouttofile_button.Text = "Вывести в файл";
-            this.Figureouttofile_button.UseVisualStyleBackColor = true;
+            this.Figureouttofile_button.Text = "Рассчитать в файл";
+            this.Figureouttofile_button.UseVisualStyleBackColor = false;
             this.Figureouttofile_button.Click += new System.EventHandler(this.Export_button_Click);
             // 
             // result
             // 
-            this.result.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.result.BackColor = System.Drawing.SystemColors.HighlightText;
             this.result.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.result.Location = new System.Drawing.Point(249, 562);
             this.result.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -357,6 +367,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1467, 796);
             this.Controls.Add(this.labelbase);
             this.Controls.Add(this.labelage);
@@ -380,7 +391,7 @@
             this.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "KASKOCalc";
-            this.Text = "Калькулятор ОСАГО";
+            this.Text = "Калькулятор КАСКО";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -19,7 +19,7 @@ namespace KASKOCalc
         {
             SaveFileDialog mainsavefd = new SaveFileDialog()
             {
-                FileName = "расчетосаго.txt"
+                FileName = "расчетКАСКО.txt"
             };
             if (mainsavefd.ShowDialog() == DialogResult.OK)
             {
